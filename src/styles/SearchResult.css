@@ -1,0 +1,32 @@
+.search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-results li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .search-results li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .country-details {
+    margin-top: 20px;
+  }
+  
+  .country-details pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Allows the JSON to wrap and be readable */
+  }
+  
